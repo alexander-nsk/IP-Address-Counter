@@ -24,7 +24,7 @@ public class AppTest {
     }
 
     @Test
-    void test() {
+    void testDifferentIPAddressCounters() {
         IPAddressCounter setIPAddressCounter = new SetIPAddressCounter();
         testCounter(setIPAddressCounter);
 

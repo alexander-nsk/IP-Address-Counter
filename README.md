@@ -1,3 +1,10 @@
+#### Compilation and start
+Java 17 and Maven are required.
+```cmd
+mvn package && java -jar target\IP-Addresses-Counter-1.0-SNAPSHOT.jar "src\test\resources\ip.txt" "m"
+```
+
+
 ### Documentation of Unique IP Address Counting Test Results
 
 #### Overview:
